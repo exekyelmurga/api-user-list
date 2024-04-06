@@ -16,4 +16,7 @@ Para iniciar el proyecto, sigue estos pasos:
 
    http://localhost:3000/users
 
+   Tambien puedes utilizar el archivo 'requests.http' para probar los diferentes endpoints de la api. 
+   Para eso debes tener instalada la extencion 'REST Client' en Visual Studio Code.
+
 ¡Y eso es todo! Ahora tu proyecto está listo para funcionar. Si tienes alguna pregunta o problema, ¡no dudes en contactarme!

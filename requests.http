@@ -1,5 +1,5 @@
 ###
-POST https://api-user-list.onrender.com/users HTTP/1.1
+POST http://localhost:3000/users HTTP/1.1
 Content-Type: application/json
 
 {
@@ -15,7 +15,7 @@ Content-Type: application/json
 {}
 
 ###
-GET http://localhost:3000/users/660ffd20c5e138ebfd136321 HTTP/1.1
+GET http://localhost:3000/users/66115e5e6a50a22a15482633 HTTP/1.1
 Content-Type: application/json
 
 ###
@@ -31,5 +31,5 @@ Content-Type: application/json
 }
 
 ### 
-DELETE https://api-user-list.onrender.com/users/6610625ae48b31ba18ef873a  HTTP/1.1
+DELETE http://localhost:3000/users/6610625ae48b31ba18ef873a  HTTP/1.1
 Content-Type: application/json
