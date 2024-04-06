@@ -47,16 +47,12 @@ router.delete("/users/:id", (req, res) => {
 
 router.put("/users/:id", (req, res) => {
     const { id } = req.params;
-    const { name, age, email } = req.body;
+    const { name, age, email, picture } = req.body;
     userSchema
-        .updateOne({ _id: id }, { $set: { name, age, email } })
+        .updateOne({ _id: id }, { $set: { name, age, email, picture } })
         .then((data) => res.json(data))
         .catch((error) => res.json({ message: error }));
 });
 
 
-// router.get('/users', async (req, res) => {
-//     let users = await getUsers()
-//     res.send(users)
-// })
 module.exports = router;
