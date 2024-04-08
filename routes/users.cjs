@@ -1,6 +1,5 @@
 const express = require('express')
 const userSchema = require("../models/user.cjs");
-const getUsers = require ('../getUsers.cjs')
 
 const router = express.Router();
 
